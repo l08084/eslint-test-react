@@ -4081,6 +4081,10 @@
     "jsx-ast-utils" "^3.1.0"
     "language-tags" "^1.0.5"
 
+"eslint-plugin-lookbehind-assertions@github:l08084/eslint-plugin-lookbehind-assertions":
+  "resolved" "git+ssh://git@github.com/l08084/eslint-plugin-lookbehind-assertions.git#308058e563a3433ac0512d88df32248b5dfb835d"
+  "version" "0.0.1"
+
 "eslint-plugin-prettier@^3.4.0":
   "resolved" "https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-3.4.0.tgz"
   "version" "3.4.0"

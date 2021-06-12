@@ -3,6 +3,15 @@ import './App.css';
 
 function App() {
   var abc = 'aaa';
+
+  const oranges = ['ripe orange A ', 'green orange B', 'ripe orange C'];
+
+  let ripe_oranges = oranges.filter((fruit) => fruit.match(/(?<=ripe )orange/));
+  console.log(ripe_oranges);
+
+  const re = new RegExp('(?<=ripe )orange');
+
+  ripe_oranges = oranges.filter((fruit) => fruit.match(re));
   return (
     <div className="App">
       <header className="App-header">

@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   parser: 'babel-eslint',
-  plugins: ['react'],
+  plugins: ['react', 'lookbehind-assertions'],
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
@@ -13,6 +13,8 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: ['eslint:recommended'],
-  rules: {},
+  extends: ['eslint:recommended', 'plugin:lookbehind-assertions/all'],
+  rules: {
+    //'lookbehind-assertions/no-lookbehind-assertions-regexp': 'error',
+  },
 };
